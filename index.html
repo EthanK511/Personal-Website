@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethan K Dev</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="/ETHAN K.png">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Crimson+Text:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">ETHAN</span>
+                <span class="logo-dot"></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <canvas id="canvas-bg"></canvas>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="word">Creative</span>
+                    <span class="word">Developer</span>
+                </h1>
+                <p class="hero-subtitle">I build experiences that blend code and creativity</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary">Explore My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-header">
+            <h2>About Me</h2>
+            <div class="header-line"></div>
+        </div>
+        <div class="about-grid">
+            <div class="about-content">
+                <p class="about-intro">Hey there! I'm Ethan, 14 year old developer who works at the intersection of code and creativity.</p>
+                
+                <p>I started coding because I was fascinated by the idea of makeing my own digital world whare im in full control. For me every project is an opportunity to solve problems in ways that look good and feel good to create digital experiences that make an impact.</p>
+
+                <p>My approach combines technical excellence with a creative approach. From building a sleek backend script to crafting an intuitive user interface, I bring the same passion and attention to detail to every line of code.</p>
+
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <h3>Frontend</h3>
+                        <p>JavaScript, HTML/CSS, TypeScript</p>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Backend</h3>
+                        <p>Node.js, Python, Databases</p>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Design</h3>
+                        <p>UI/UX, Animation, Creative Coding</p>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Tools</h3>
+                        <p>GitHub, Figma, VS Code</p>
+                    </div>
+                </div>
+            </div>
+            <div class="about-visual">
+                <div class="rotating-cube"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="section-header">
+            <h2>Featured Projects</h2>
+            <div class="header-line"></div>
+        </div>
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <div class="project-image project-img-1"></div>
+                <div class="project-content">
+                    <h3>CO2 Live</h3>
+                    <p>A real-time CO2 monitoring dashboard providing live data visualization and insights.</p>
+                    <div class="tech-tags">
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">HTML/CSS</span>
+                        <span class="tag">Firebase</span>
+                    </div>
+                    <a href="https://co2-cloud.web.app/" class="project-link">View Project →</a>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card">
+                <div class="project-image project-img-2"></div>
+                <div class="project-content">
+                    <h3>Hack Club Website</h3>
+                    <p>A custom biult website for my hack club, with a intigrated dashbord for tracking projects and events.</p>
+                    <div class="tech-tags">
+                        <span class="tag">TypeScript</span>
+                        <span class="tag">Databases</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                    <a href="https://ethank511.github.io/ghs-hack-club-website/" class="project-link">View Project →</a>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card">
+                <div class="project-image project-img-3"></div>
+                <div class="project-content">
+                    <h3>My Portfolio Website</h3>
+                    <p>The website showcasing my projects, skills, and creative work, you're looking at it right now.</p>
+                    <div class="tech-tags">
+                        <span class="tag">HTML/CSS</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">Canvas</span>
+                    </div>
+                    <a href="#home" class="nav-link">View Project →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-header">
+            <h2>Contact Me</h2>
+            <div class="header-line"></div>
+        </div>
+        <div class="contact-container">
+            <p class="contact-text">I'm always open to new ideas and collaborations. Feel free to reach out with your ideas!</p>
+            <div class="contact-links">
+                <a href="mailto:ekelty4698@student.pps.net" class="contact-link">Email</a>
+                <a href="mailto:ethankelty13@gmail.com" class="contact-link" target="_blank">Email</a>
+                <a href="https://github.com/EthanK511" class="contact-link" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Ethan. Crafted with code and creativity.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
